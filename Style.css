@@ -30,11 +30,33 @@ button {
   color: white;
   border: none;
   padding: 0.5rem 1rem;
+  margin: 0.5rem;
   cursor: pointer;
 }
 
 button:hover {
   background: #218838;
+}
+
+#controls {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.node {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+}
+
+.edge {
+  position: absolute;
+  background-color: #555;
+  height: 2px;
+  transform-origin: left center;
 }
 
 #details {
